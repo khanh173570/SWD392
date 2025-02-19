@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>PreMarital</artifactId>
+	<artifactId>demo-PostgreSQL</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>PreMarital</name>
-	<description>Demo project for PreMarital</description>
+	<name>demo-PostgreSQL</name>
+	<description>Demo project for PostgreSQL API</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -40,8 +40,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
