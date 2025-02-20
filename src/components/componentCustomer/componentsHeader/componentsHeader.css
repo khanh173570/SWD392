@@ -1,5 +1,16 @@
 .header {
-  background-color: #0000ff;
   height: 100px;
   max-height: 50%;
+  background-color: antiquewhite;
+}
+.login-button:hover {
+  background-color: rgb(139, 239, 139);
+}
+.login-button {
+  border-radius: "50px";
+  border: none;
+  padding: auto;
+  margin-left: "650px";
+  background-color: antiquewhite;
+  color: blue;
 }
