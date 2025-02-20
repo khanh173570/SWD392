@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Header from "../../components/componentsAdmin/componentsHeader/componentsHeader";
-import Footer from "../../components/componentsAdmin/componentsFooter/componentsFooter";
+import Header from "../../components/componentCustomer/componentsHeader/componentsHeader.jsx";
+import Footer from "../../components/componentCustomer/componentsFooter/componentsFooter.jsx";
+
 function CustomerApp() {
   return (
     <>
