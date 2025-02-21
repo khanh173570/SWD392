@@ -22,15 +22,15 @@ function ComponentsHeader() {
   return (
     <Navbar
       expand="md"
-      className="nav-header navbar navbar-expand-md navbar-light bg-light w-100"
+      className="nav-header navbar navbar-expand-md navbar-light w-100"
     >
       <Row className=" align-items-center w-100">
         <Col
           md={5}
           style={{ height: "100px" }}
-          className=" text-black  p-3 text-center"
+          className=" text-black  p-4 text-center"
         >
-          <Navbar.Brand href="/" className="p-3 fw-bold ">
+          <Navbar.Brand href="/" className="p-3 fw-bold" style={{ zIndex: 99 }}>
             <img
               src={PRE}
               width="50px"

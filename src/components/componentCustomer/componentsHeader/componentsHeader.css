@@ -1,8 +1,3 @@
-.header {
-  height: 100px;
-  max-height: 50%;
-  background-color: antiquewhite;
-}
 .login-button:hover {
   background-color: rgb(139, 239, 139);
 }
@@ -13,4 +8,20 @@
   margin-left: "650px";
   background-color: antiquewhite;
   color: blue;
+}
+.nav-header {
+  position: relative;
+  height: 80px;
+  background-image: url("https://img.freepik.com/free-vector/v915_53876-174949.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
