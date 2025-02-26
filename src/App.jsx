@@ -3,6 +3,7 @@ import "./App.css";
 import CustomerApp from "./layouts/layoutCustomer/CustomerApp";
 // import HomePage from "./pages/pagesCustomer/homePage/pagesCustomer";
 import HomePage from "./pages/pagesCustomer/homePage/HomePage";
+import Login from "./pages/pagesCustomer/loginPage/Login";
 function App() {
   // const  App = () =>  {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route element={<CustomerApp />}>
             <Route path="/" element={<HomePage />} />
+            <Route path="/login" element={<Login />} />
           </Route>
         </Routes>
       </BrowserRouter>

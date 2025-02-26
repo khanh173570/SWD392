@@ -30,7 +30,7 @@ function ComponentsHeader() {
           style={{ height: "100px" }}
           className=" text-black  p-4 text-center"
         >
-          <Navbar.Brand href="/" className="p-3 fw-bold" style={{ zIndex: 99 }}>
+          <Navbar.Brand href="/" className="p-3 fw-bold">
             <img
               src={PRE}
               width="50px"
