@@ -3,3 +3,43 @@
   height: 100%;
   margin-top: 100px;
 }
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0 !important;
+  margin: 0;
+  /* border: none; */
+  box-shadow: none;
+}
+.card-image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+
+.card-image {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 10px;
+  height: 30%;
+  color: #3b5998;
+  text-align: left; /* Căn trái nội dung */
+  align-items: flex-start; /* Đảm bảo các phần tử bên trong căn trái */
+}
+.card-body {
+  padding: 5px; /* Xóa hoàn toàn padding */
+  margin-bottom: 25px; /* Xóa margin nếu có */
+}
