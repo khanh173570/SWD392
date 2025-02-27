@@ -24,7 +24,7 @@
 
 .card-image {
   width: 100%;
-  height: 120%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -32,14 +32,85 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
   margin-left: 10px;
   height: 30%;
-  color: #3b5998;
   text-align: left; /* Căn trái nội dung */
   align-items: flex-start; /* Đảm bảo các phần tử bên trong căn trái */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(78, 78, 165);
 }
 .card-body {
   padding: 5px; /* Xóa hoàn toàn padding */
-  margin-bottom: 25px; /* Xóa margin nếu có */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 110px;
+  margin-bottom: 10px;
+}
+.author {
+  margin-top: auto; /* Đẩy xuống dưới */
+  color: black;
+}
+.advice {
+  width: 100%;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.advice-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+.advice-image:hover {
+  transform: scale(1.05);
+}
+
+.advice-content {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 10px;
+}
+.advice-content h5 {
+  text-align: center;
+}
+
+.sub-items-list {
+  text-align: left;
+  padding-left: 20px; /* Đảm bảo lùi vào nếu cần */
+}
+
+.advice-item {
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  /* transition: background 0.3s; */
+  border: 2px solid #333;
+  width: 100%;
+  height: 325px;
+}
+.button-view {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: black;
+  width: 53%;
+}
+
+.button-view:hover {
+  text-decoration: underline;
+  background-color: green;
 }
